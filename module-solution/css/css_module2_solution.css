@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+}
+/*Large devices*/
+@media (min-width: 992px){
+	section {
+		float: left;
+		width: 32%; /*I set 32%, 48.5% and 99% width values because, for some reason, it wouldn't fit in the screen if I used 33%, 50% and 100% width values*/
+	}
+}
+/*Medium devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+	section {
+		float: left;
+		width: 48.5%;
+	}
+	#s3 {
+		width: 99%;
+	}
+}
+
+/*Small devices*/
+@media (max-width: 767px) {
+	section{
+		width: 99%;
+}
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: courier, serif;
+}
+
+section{
+	position:relative;
+	padding: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: #7EECE2;
+	margin: 5px;
+}
+
+div{
+	font-size: 125%;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	padding-right:30px; 
+	padding-left:30px;
+}
+
+h1{
+	text-align: center;
+	font-size: 175%;
+}
+
+#d1{
+	background-color: #B57EEC;
+}
+
+#d2{
+	background-color: #7EEC97;
+}
+
+#d3{
+	background-color: #EC7EBD;
+}
