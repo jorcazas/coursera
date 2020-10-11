@@ -1,3 +1,3 @@
-## Welcome to GitHub Pages
+## Welcome to my page. I'm Javier Orcazas
 
-You can use the [editor on GitHub](https://github.com/jorcazas/coursera/edit/coursera-assignements/docs/index.md) to maintain and preview the content for your website in Markdown files.
+[Click here] (https://github.com/jorcazas/coursera/module-solution) to go to the folder containing my solutions for module 2
